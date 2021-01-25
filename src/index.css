@@ -1,0 +1,40 @@
+:root {
+  --bs: 0 0 10px;
+  --Oswald: 'Oswald', sans-serif;
+  --Bebas: 'Bebas Neue', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(218, 217, 215) !important;
+  font-family: var(--Oswald) !important;
+  letter-spacing: 1px !important;
+  padding: 2rem 0 !important;
+}
+
+.todo-container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  background-color: rgb(242, 255, 195) !important;
+  box-shadow: var(--bs);
+}
+
+h1,
+h {
+  font-family: var(--Bebas) !important;
+}
+span {
+  cursor: pointer !important;
+}
